@@ -211,8 +211,8 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 //copyright code & ♯ 𝐑eBeL .#0001 ©
 
-	const devs = ['393435687594229761']; //ايديك هنا
-const adminprefix = "N";// البريفيكس الي تبيه لأوامر ساحب البوت
+	const devs = ['498947642110509067']; //ايديك هنا
+const adminprefix = "!";// البريفيكس الي تبيه لأوامر ساحب البوت
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
